@@ -1,0 +1,2 @@
+
+curl -i -H "X-Auth-Email: ${EMAIL}" -H "X-Auth-Key: ${AUTH_KEY}" "https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_TAG}/workers/durable_objects/namespaces" -X POST --data '{"name": "actor_namespace", "scope": "colo", "script": "actor-script"}'

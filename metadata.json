@@ -1,0 +1,10 @@
+{
+    "body_part": "script",
+    "bindings": [
+      {
+        "type": "durable_object_namespace",
+        "name": "actor_namespace",
+        "namespace_id": "a0e7357e5c604ce098413e4d6aa4136e"
+      }
+    ]
+  }
